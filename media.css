@@ -1,0 +1,167 @@
+.media_sections {
+    display: grid;
+    grid-template-columns: 105px 95px 110px 80px 85px 95px;
+    position: fixed;
+    left: 320px;
+    top: 70px;
+    min-width: 595px;
+    border-bottom: 1px solid rgb(239, 243, 244);
+    height: 35px;
+    border-right: 1px solid rgb(239, 243, 244);
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.media_sections p {
+    font-family: Roboto, Arial;
+    background-color: white;
+    z-index: 100;
+}
+
+.trending,
+.world_cup,
+.news,
+.sports,
+.entertainment {
+    color: rgb(73, 73, 73);
+}
+
+.for_you {
+    margin-left: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.for_you_container {
+    position: relative;
+}
+
+.blue_underline {
+    position: absolute;
+    left: 21px;
+    bottom: 0;
+    background-color: rgb(29, 155, 240);
+    min-width: 52px;
+    height: 4px;
+    border-radius: 99999px;
+}
+
+.media {
+    position: absolute;
+    left: 320px;
+    width: 595px;
+    top: 100px;
+    height: 1530px;
+    border-right: 1px solid rgb(239, 243, 244);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: -1000;
+}
+
+.netherlands_score {
+    margin-top: 5px;
+    width: 570px;
+    height: 48px;
+    background-color: rgb(242, 108, 41);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.us_score {
+    background-color: rgb(60, 59, 110);
+    width: 570px;
+    height: 48px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.team_name {
+    font-family: Roboto, Arial;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+
+.fifa_cup {
+    margin-top: 15px;
+    font-family: Roboto, Arial;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.fifa_info {
+    font-family: Roboto, Arial;
+    font-size: 13px;
+    color: rgb(249, 24, 128);
+    font-weight: 600;
+}
+
+.fifa_info2 {
+    font-family: Roboto, Arial;
+    font-size: 13px;
+    color: rgb(83, 100, 113);
+    font-weight: 400;
+}
+
+.fifa_info_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.netherlands_image,
+.usa_image {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px
+}
+
+.game_score {
+    font-weight: 800;
+    font-size: 23px;
+    font-family: Roboto, Arial;
+    color: white;
+    position: absolute;
+    right: 40px;
+}
+
+.tags {
+    margin-top: 25px;
+    width: 570px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category {
+	font-family: Roboto;
+	font-size: 13px;
+	color: rgb(83, 100, 113);
+    margin-bottom: 5px;
+}
+
+.hash {
+	font-family: Roboto, Arial;
+	font-size: 15px;
+	font-weight: 500;
+	color: rgb(15, 20, 25);
+    margin-bottom: 5px;
+}
+
+.tag_info {
+	font-size: 13px;
+	color:rgb(83, 100, 113);
+	font-family: Roboto, Arial;
+    margin-bottom: 5px;
+}
+
+.dots {
+    width: 15px;
+    opacity: .6;
+}

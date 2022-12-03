@@ -1,0 +1,52 @@
+.bottom_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    font-family: Roboto, Arial;
+    background-color: rgb(29, 155, 240);
+    color: white;
+}
+
+.bottom_bar_text {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.bottom_bar_text_container {
+    margin-left: 320px;
+}
+
+.login_button {
+    height: 37px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 9999px;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.signin_button {
+    height: 37px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 9999px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.bottombar_button_container {
+    margin-right: 65px;
+}

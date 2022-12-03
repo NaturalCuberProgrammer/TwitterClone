@@ -1,0 +1,108 @@
+@media (max-width: 1320px) {
+    .options_box,
+    .site_info {
+        opacity: 0;
+    }
+}
+
+.options_box {
+    background-color: white;
+    width: 348px;
+    height: 288px;
+    border: 1px solid rgb(239, 243, 244);
+    border-radius: 20px;
+    z-index: 100;
+    position: fixed;
+    right: 52px;
+    top: 12px;
+}
+
+.options_text_container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.topic_question {
+    font-family: Roboto, Arial;
+    font-weight: 700;
+    font-size: 22px;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+
+.signin_influence {
+	font-size: 13px;
+	color: rgb(82, 82, 82);
+	font-family: Roboto, Arial;
+	position: absolute;
+	top: 50px;
+	left: 15px;
+}
+
+.google_signup,
+.apple_signup,
+.phone_signup {
+    margin-bottom: 10px;
+	border:1px solid rgb(207, 217, 222);;
+	border-radius: 9999px;
+	min-height: 38px;
+	min-width: 300px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    font-family: Roboto, Arial;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.signup_options {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    position: absolute;
+    top: 80px;
+}
+
+.google_logo,
+.apple_logo {
+    height: 19px;
+    margin-right: 15px
+}
+
+.terms,
+.policy,
+.cookies {
+    color: rgb(29, 155, 240);
+}
+
+.signup_info {
+    font-family: Roboto, Arial;
+    font-size: 13px;
+    color: rgb(83, 100, 113);
+    line-height: 16px;
+    margin-top: 10px;
+}
+
+.site_info {
+    font-family: Roboto, Arial;
+    color: rgb(83, 100, 113);
+    font-size: 13px;
+    position: absolute;
+    right: 120px;
+    top: 320px;
+    z-index: 100;
+}
+
+.site_info p {
+    position: fixed;
+    right: 125px;
+    line-height: 16px;
+    /* margin-bottom: 5px; */
+    /* word-spacing: 10px; */
+}
+
+

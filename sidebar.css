@@ -1,0 +1,50 @@
+@media (max-width: 920px) {
+    .side_bar {
+        max-width: 150px;
+    }
+}
+
+.side_bar {
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 73px;
+    bottom: 0;
+    border-right: 1px solid rgba(219, 219, 219, 0.45);
+    display: grid;
+    grid-template-rows: 45px 20px 20px;
+    row-gap: 40px;
+    width: 245px;
+}
+
+.twitter_icon {
+    /* width: 8px; */
+    height: 32px;
+    position: absolute;
+    top: 15px;
+}
+
+.explore {
+    font-family: Roboto, Arial;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(27, 27, 27);
+    font-size: 24px;
+    /* margin-bottom: 30px; */
+}
+
+.settings {
+    font-family: Roboto, Arial;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    color: rgb(88, 88, 88);
+    font-size: 24px;
+}
+
+.explore img,
+.settings img {
+    width: 22px;
+    margin-right: 20px;
+}
